@@ -1,0 +1,6 @@
+/venv/
+/.idea/
+/__pycache/
+/fingerprint_data.csv
+/driver_score_data.csv
+/images/

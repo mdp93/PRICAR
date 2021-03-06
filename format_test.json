@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "score": {
+    "type": "int",
+    "min": 0,
+    "max": 100
+  },
+  "penalties": {
+    "type": "array",
+    "item": {
+      "type": "float",
+      "min": -10,
+      "max": 0,
+      "max_precision": 3
+    },
+    "max_length": 5
+  },
+  "working": {
+    "type": "bool"
+  }
+}
